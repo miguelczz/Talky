@@ -1,7 +1,7 @@
 from django.forms import ModelForm
-from .models import Task
+from .models import Talky
 
-class TaskForm(ModelForm):
+class TalkyForm(ModelForm):
     class Meta:
-        model = Task
+        model = Talky
         fields = ['title', 'description', 'important']
