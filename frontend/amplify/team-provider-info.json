@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-talky-dev-ef3ec-authRole",
+      "UnauthRoleArn": "arn:aws:iam::532465846670:role/amplify-talky-dev-ef3ec-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::532465846670:role/amplify-talky-dev-ef3ec-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-talky-dev-ef3ec-deployment",
+      "UnauthRoleName": "amplify-talky-dev-ef3ec-unauthRole",
+      "StackName": "amplify-talky-dev-ef3ec",
+      "StackId": "arn:aws:cloudformation:us-east-1:532465846670:stack/amplify-talky-dev-ef3ec/82748fd0-3833-11f0-91d7-0affcfb721f9",
+      "AmplifyAppId": "d2vtirwbs6kqgh"
+    },
+    "categories": {
+      "auth": {
+        "talky33d3edb7": {}
+      }
+    }
+  }
+}

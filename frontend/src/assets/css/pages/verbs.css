@@ -1,0 +1,67 @@
+.verbs-container {
+    background-color: #1e1e1e;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.verbs-container h2 {
+    color: #fff;
+    font-weight: 600;
+}
+
+.verbs-table {
+    background-color: transparent;
+    border-collapse: collapse;
+    width: 100%;
+    color: #fff;
+}
+
+.verbs-table th {
+    background-color: #2b2b2b;
+    color: #ccc;
+    font-weight: 500;
+    padding: 0.75rem;
+    border-bottom: 1px solid #444;
+}
+
+.verbs-table td {
+    background-color: #2b2b2b;
+    color: #eee;
+    padding: 0.75rem;
+    border-bottom: 1px solid #333;
+}
+
+.verbs-table tr:hover td {
+    background-color: #353535;
+}
+
+.verbs-table button {
+    background-color: #00b894;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 8px;
+    color: white;
+    font-weight: 500;
+}
+
+.verbs-table button:disabled {
+    background-color: #555;
+    cursor: not-allowed;
+}
+
+.toggle-btn {
+    padding: 6px 16px;
+    border: 2px solid rgb(0, 122, 242);
+    background-color: transparent;
+    color: rgb(0, 122, 242);
+    border-radius: 8px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    margin-left: 0.5rem;
+}
+
+.toggle-btn::after {
+    background-color: rgb(0, 122, 242);
+    color: white;
+}

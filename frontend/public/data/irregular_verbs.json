@@ -1,0 +1,182 @@
+[
+    {
+        "infinitive": "Be",
+        "past": "Was/Were",
+        "participle": "Been",
+        "translation": "Ser/Estar"
+    },
+    {
+        "infinitive": "Become",
+        "past": "Became",
+        "participle": "Become",
+        "translation": "Convertirse"
+    },
+    {
+        "infinitive": "Begin",
+        "past": "Began",
+        "participle": "Begun",
+        "translation": "Empezar"
+    },
+    {
+        "infinitive": "Break",
+        "past": "Broke",
+        "participle": "Broken",
+        "translation": "Romper"
+    },
+    {
+        "infinitive": "Bring",
+        "past": "Brought",
+        "participle": "Brought",
+        "translation": "Traer"
+    },
+    {
+        "infinitive": "Build",
+        "past": "Built",
+        "participle": "Built",
+        "translation": "Construir"
+    },
+    {
+        "infinitive": "Buy",
+        "past": "Bought",
+        "participle": "Bought",
+        "translation": "Comprar"
+    },
+    {
+        "infinitive": "Catch",
+        "past": "Caught",
+        "participle": "Caught",
+        "translation": "Atrapar"
+    },
+    {
+        "infinitive": "Choose",
+        "past": "Chose",
+        "participle": "Chosen",
+        "translation": "Elegir"
+    },
+    {
+        "infinitive": "Come",
+        "past": "Came",
+        "participle": "Come",
+        "translation": "Venir"
+    },
+    {
+        "infinitive": "Do",
+        "past": "Did",
+        "participle": "Done",
+        "translation": "Hacer"
+    },
+    {
+        "infinitive": "Drink",
+        "past": "Drank",
+        "participle": "Drunk",
+        "translation": "Beber"
+    },
+    {
+        "infinitive": "Drive",
+        "past": "Drove",
+        "participle": "Driven",
+        "translation": "Conducir"
+    },
+    {
+        "infinitive": "Eat",
+        "past": "Ate",
+        "participle": "Eaten",
+        "translation": "Comer"
+    },
+    {
+        "infinitive": "Fall",
+        "past": "Fell",
+        "participle": "Fallen",
+        "translation": "Caer"
+    },
+    {
+        "infinitive": "Feel",
+        "past": "Felt",
+        "participle": "Felt",
+        "translation": "Sentir"
+    },
+    {
+        "infinitive": "Find",
+        "past": "Found",
+        "participle": "Found",
+        "translation": "Encontrar"
+    },
+    {
+        "infinitive": "Fly",
+        "past": "Flew",
+        "participle": "Flown",
+        "translation": "Volar"
+    },
+    {
+        "infinitive": "Forget",
+        "past": "Forgot",
+        "participle": "Forgotten",
+        "translation": "Olvidar"
+    },
+    {
+        "infinitive": "Get",
+        "past": "Got",
+        "participle": "Gotten",
+        "translation": "Obtener"
+    },
+    {
+        "infinitive": "Give",
+        "past": "Gave",
+        "participle": "Given",
+        "translation": "Dar"
+    },
+    {
+        "infinitive": "Go",
+        "past": "Went",
+        "participle": "Gone",
+        "translation": "Ir"
+    },
+    {
+        "infinitive": "Grow",
+        "past": "Grew",
+        "participle": "Grown",
+        "translation": "Crecer"
+    },
+    {
+        "infinitive": "Have",
+        "past": "Had",
+        "participle": "Had",
+        "translation": "Tener"
+    },
+    {
+        "infinitive": "Hear",
+        "past": "Heard",
+        "participle": "Heard",
+        "translation": "Oír"
+    },
+    {
+        "infinitive": "Hold",
+        "past": "Held",
+        "participle": "Held",
+        "translation": "Sostener"
+    },
+    {
+        "infinitive": "Keep",
+        "past": "Kept",
+        "participle": "Kept",
+        "translation": "Guardar"
+    },
+    {
+        "infinitive": "Know",
+        "past": "Knew",
+        "participle": "Known",
+        "translation": "Saber"
+    },
+    {
+        "infinitive": "Leave",
+        "past": "Left",
+        "participle": "Left",
+        "translation": "Salir"
+    },
+    {
+        "infinitive": "Lose",
+        "past": "Lost",
+        "participle": "Lost",
+        "translation": "Perder"
+    }
+]

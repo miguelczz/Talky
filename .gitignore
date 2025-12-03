@@ -1,0 +1,217 @@
+# ============================================
+# Variables de Entorno y Configuraciones
+# ============================================
+.env
+.env.*
+.env.local
+.env.*.local
+.env.development
+.env.production
+.env.test
+.docker.env
+docker-compose.override.yml
+*.env
+*.env.local
+*.env.*.local
+
+# ============================================
+# Docker
+# ============================================
+*.log
+docker-compose.override.yml
+.docker/
+
+# ============================================
+# Backend - Maven / Java
+# ============================================
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
+backend/.mvn/wrapper/maven-wrapper.properties
+backend/.classpath
+backend/.project
+backend/.settings/
+backend/.springBeans
+backend/.sts4-cache/
+backend/*.iml
+backend/*.iws
+backend/*.ipr
+backend/bin/
+backend/out/
+backend/.idea/
+backend/.vscode/
+
+# ============================================
+# Frontend - Node / Vite
+# ============================================
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/build/
+frontend/.vite/
+frontend/.cache/
+frontend/.temp/
+frontend/coverage/
+frontend/.nyc_output/
+frontend/*.log
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+frontend/lerna-debug.log*
+frontend/.pnpm-debug.log*
+
+# ============================================
+# AWS Amplify / Cognito
+# ============================================
+frontend/amplify/#current-cloud-backend/
+frontend/amplify/.config/local-*
+frontend/amplify/logs/
+frontend/amplify/mock-data/
+frontend/amplify/mock-api-resources/
+frontend/amplify/backend/amplify-meta.json
+frontend/amplify/backend/.temp/
+frontend/amplify-backup/
+frontend/aws-exports.js
+frontend/awsconfiguration.json
+frontend/amplifyconfiguration.json
+frontend/amplifyconfiguration.dart
+frontend/amplify-build-config.json
+frontend/amplify-gradle-config.json
+frontend/amplifytools.xcconfig
+frontend/.secret-*
+frontend/**/*.sample
+
+# ============================================
+# IDEs y Editores
+# ============================================
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ============================================
+# Sistema Operativo
+# ============================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ============================================
+# Logs y Temporales
+# ============================================
+*.log
+logs/
+*.tmp
+*.temp
+*.bak
+*.backup
+*.swp
+*.swo
+*~
+.cache/
+.temp/
+.tmp/
+
+# ============================================
+# Archivos de Configuración Sensibles
+# ============================================
+**/application-local.properties
+**/application-dev.properties
+**/application-prod.properties
+**/application-*.properties
+**/config/local.json
+**/config/dev.json
+**/config/prod.json
+**/secrets/
+**/credentials/
+**/*.key
+**/*.pem
+**/*.p12
+**/*.jks
+**/*.keystore
+**/*.truststore
+
+# ============================================
+# Base de Datos
+# ============================================
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-shm
+*.db-wal
+pgdata/
+postgres-data/
+mysql-data/
+
+# ============================================
+# Archivos de Proyecto Específicos
+# ============================================
+IdeaProjects/
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+*.code-workspace
+
+# ============================================
+# Archivos de Build y Compilación
+# ============================================
+build/
+dist/
+out/
+target/
+bin/
+obj/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+
+# ============================================
+# Archivos de Testing
+# ============================================
+coverage/
+.nyc_output/
+test-results/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# ============================================
+# Archivos de Documentación Generados
+# ============================================
+docs/_build/
+docs/.doctrees/
+site/
+
+# ============================================
+# Archivos de Backup
+# ============================================
+*.bak
+*.backup
+*.old
+*.orig
+*~

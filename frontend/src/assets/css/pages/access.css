@@ -1,0 +1,72 @@
+/** Inicio de sesion */
+
+/** Inicio de sesión */
+
+/* Fondo general */
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+/* Contenedor principal del login */
+form.card {
+    background-color: #1a1a1a;
+    border: 1px solid #333;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.05);
+    transition: transform 0.3s ease;
+}
+
+/* Títulos */
+form.card h1 {
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Inputs */
+form.card input.form-control {
+    background-color: #2c2c2c;
+    color: #fff;
+    border: 1px solid #444;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+form.card input.form-control:focus {
+    border-color: rgb(0, 122, 242);
+    box-shadow: 0 0 8px #4e57d480;
+    outline: none;
+}
+
+/* Botón Ingresar */
+form.card .btn-dark {
+    background-color: rgb(0, 122, 242);
+    border: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+form.card .btn-dark:hover {
+    background-color: rgb(2, 102, 202);
+}
+
+/* Enlace para registrarse */
+.text-center {
+    text-align: center;
+}
+
+.link-registrarse {
+    color: rgb(0, 122, 242);
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+/** Registro   */

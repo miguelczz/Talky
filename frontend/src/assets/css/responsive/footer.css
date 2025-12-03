@@ -1,0 +1,11 @@
+@media (max-width: 1500px) {
+    footer {
+        height: 10vh;
+    }
+}
+
+@media (max-width: 1000px) {
+    footer {
+        display: none;
+    }
+}

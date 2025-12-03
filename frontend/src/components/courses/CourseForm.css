@@ -1,0 +1,127 @@
+.course-form {
+  background: var(--color-bg-light);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  max-width: 600px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--color-text);
+  font-weight: 500;
+  font-size: var(--font-size-sm);
+}
+
+.required {
+  color: rgb(239, 68, 68);
+}
+
+.form-input,
+.form-textarea,
+.form-select {
+  width: 100%;
+  padding: 12px 14px;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  color: var(--color-text);
+  font-size: var(--font-size-md);
+  font-family: var(--font-main);
+  transition: all var(--transition-medium);
+}
+
+.form-input:focus,
+.form-textarea:focus,
+.form-select:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px rgba(255, 129, 57, 0.1);
+}
+
+.form-input.error,
+.form-textarea.error,
+.form-select.error {
+  border-color: rgb(239, 68, 68);
+}
+
+.form-input:disabled,
+.form-textarea:disabled,
+.form-select:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.form-textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.form-error {
+  display: block;
+  margin-top: 6px;
+  color: rgb(239, 68, 68);
+  font-size: var(--font-size-sm);
+}
+
+.form-helper {
+  display: block;
+  margin-top: 6px;
+  color: var(--color-text-light);
+  font-size: var(--font-size-sm);
+  text-align: right;
+}
+
+.form-actions {
+  display: flex;
+  gap: 12px;
+  justify-content: flex-end;
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid var(--color-border);
+}
+
+.btn-primary,
+.btn-secondary {
+  padding: 10px 20px;
+  border-radius: var(--radius-md);
+  font-size: var(--font-size-md);
+  font-weight: 500;
+  cursor: pointer;
+  transition: all var(--transition-medium);
+  border: none;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+  color: var(--color-text);
+  box-shadow: 0 4px 12px rgba(255, 129, 57, 0.2);
+}
+
+.btn-primary:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(255, 129, 57, 0.3);
+}
+
+.btn-secondary {
+  background: var(--color-bg);
+  color: var(--color-text-muted);
+  border: 1px solid var(--color-border);
+}
+
+.btn-secondary:hover:not(:disabled) {
+  background: var(--color-bg-hover);
+  color: var(--color-text);
+}
+
+.btn-primary:disabled,
+.btn-secondary:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+

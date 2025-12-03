@@ -1,0 +1,22 @@
+.lessons-page {
+  min-height: 100vh;
+  padding: 24px;
+  color: var(--color-text);
+}
+
+.lessons-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 24px;
+}
+
+@media (max-width: 768px) {
+  .lessons-page {
+    padding: 16px;
+  }
+
+  .lessons-grid {
+    grid-template-columns: 1fr;
+  }
+}
+

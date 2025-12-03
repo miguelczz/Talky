@@ -1,0 +1,146 @@
+.glossary-container {
+    background-color: #181818;
+    padding: 2rem;
+    border-radius: 16px;
+}
+
+.glossary-container h1 {
+    font-weight: 900;
+    font-size: 35px;
+    align-items: end;
+    color: rgb(255, 129, 57);
+}
+
+.glossary-container input[type="text"]::placeholder {
+    color: #cccccc;
+    opacity: 1;
+}
+
+.glossary-container input[type="text"] {
+    background-color: #1f1f1f;
+    border: 1px solid #333;
+    color: white;
+    border-radius: 8px;
+    padding: 0.6rem 1rem;
+}
+
+.btn-glossary-add {
+    background-color: rgb(0, 122, 242);
+    border: none;
+    color: white;
+    padding: 0.5rem 1.2rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.btn-glossary-add:hover {
+    background-color: transparent;
+    color: rgb(0, 122, 242);
+    border: 1px solid rgb(0, 122, 242);
+}
+
+.btn-glossary-archive {
+    background-color: transparent;
+    border: 1px solid rgb(0, 122, 242);
+    color: rgb(0, 122, 242);
+    text-decoration: none;
+    padding: 0.5rem 1.2rem;
+    border-radius: 8px;
+    margin-left: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.btn-glossary-archive:hover {
+    background-color: rgb(0, 122, 242);
+    color: white;
+}
+
+/* tarjeta */
+.glossary-card {
+    background-color: #1f1f1f;
+    border: 1px solid #333;
+    border-radius: 12px;
+    padding: 1rem;
+    color: white;
+
+    /* animación y control de crecimiento */
+    transition: max-height 0.5s ease, box-shadow 0.2s ease;
+    overflow: hidden; /* evita que el texto sobresalga */
+    max-height: 8.5rem; /* altura inicial: ajuste según tu diseño */
+    position: relative;
+    display: block; /* importante: permitir flujo normal */
+}
+
+/* cuerpo (titulo + descripcion) */
+.glossary-card .card-body {
+    /* nada especial, solo asegura que el contenido fluya normalmente */
+}
+
+/* título */
+.glossary-card .card-body h5 {
+    margin: 0 0 0.25rem;
+}
+
+/* descripción: por defecto truncada a 2 líneas */
+.glossary-card .card-body p {
+    margin: 0 0 0.5rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 1; /* mostrar 2 líneas por defecto */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word; /* partir palabras largas */
+}
+
+/* footer */
+.glossary-card .card-footer {
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+/* al hacer hover: permitir que la tarjeta crezca */
+.glossary-card:hover {
+    max-height: 1000px; /* valor grande que permita mostrar todo */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* al hacer hover quitar el clamp para que el p se expanda y empuje la tarjeta */
+.glossary-card:hover .card-body p {
+    -webkit-line-clamp: unset;
+    overflow: visible;
+    text-overflow: unset;
+}
+
+.btn-archive {
+    background-color: rgb(255, 129, 57);
+    color: white;
+    border: none;
+    padding: 0.4rem 0.8rem;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    font-size: 0.9rem;
+    border: 1px solid rgb(255, 129, 57);
+}
+
+.btn-archive:hover {
+    background-color: transparent;
+    color: rgb(255, 129, 57);
+    border: 1px solid rgb(255, 129, 57);
+}
+
+.btn-unarchive {
+    background-color: rgb(255, 129, 57);
+    color: white;
+    border: 2px solid rgb(255, 129, 57);
+    font-weight: 500;
+    padding: 0.4rem 1rem;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.btn-unarchive:hover {
+    background-color: transparent;
+    color: rgb(255, 129, 57);
+}

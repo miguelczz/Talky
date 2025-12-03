@@ -1,0 +1,40 @@
+@media (max-width: 1500px) {
+    .heading-contact {
+        margin-bottom: 60px !important;
+        margin-top: 90px;
+    }
+
+    .content-contact {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .form-origin {
+        width: 100%;
+        height: 460px;
+    }
+}
+
+@media (max-width: 992px) {
+    .form-origin {
+        width: 100%;
+        height: auto;
+    }
+
+    .contact-form {
+        margin-top: 40px;
+        padding-top: 90px;
+        padding: 0 1rem;
+    }
+
+    .container-contact {
+        padding-top: 10px;
+    }
+
+    .content-contact {
+        margin-top: 90px;
+        height: auto;
+    }
+}

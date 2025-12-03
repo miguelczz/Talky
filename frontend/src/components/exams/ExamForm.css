@@ -1,0 +1,127 @@
+.exam-form {
+  background: var(--color-bg-light);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  max-width: 600px;
+}
+
+.exam-form .form-group {
+  margin-bottom: 20px;
+}
+
+.exam-form .form-label {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--color-text);
+  font-weight: 500;
+  font-size: var(--font-size-sm);
+}
+
+.exam-form .required {
+  color: rgb(239, 68, 68);
+}
+
+.exam-form .form-input,
+.exam-form .form-textarea,
+.exam-form .form-select {
+  width: 100%;
+  padding: 12px 14px;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  color: var(--color-text);
+  font-size: var(--font-size-md);
+  font-family: var(--font-main);
+  transition: all var(--transition-medium);
+}
+
+.exam-form .form-input:focus,
+.exam-form .form-textarea:focus,
+.exam-form .form-select:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px rgba(255, 129, 57, 0.1);
+}
+
+.exam-form .form-input.error,
+.exam-form .form-textarea.error,
+.exam-form .form-select.error {
+  border-color: rgb(239, 68, 68);
+}
+
+.exam-form .form-input:disabled,
+.exam-form .form-textarea:disabled,
+.exam-form .form-select:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.exam-form .form-textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.exam-form .form-error {
+  display: block;
+  margin-top: 6px;
+  color: rgb(239, 68, 68);
+  font-size: var(--font-size-sm);
+}
+
+.exam-form .form-helper {
+  display: block;
+  margin-top: 6px;
+  color: var(--color-text-light);
+  font-size: var(--font-size-sm);
+  text-align: right;
+}
+
+.exam-form .form-actions {
+  display: flex;
+  gap: 12px;
+  justify-content: flex-end;
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid var(--color-border);
+}
+
+.exam-form .btn-primary,
+.exam-form .btn-secondary {
+  padding: 10px 20px;
+  border-radius: var(--radius-md);
+  font-size: var(--font-size-md);
+  font-weight: 500;
+  cursor: pointer;
+  transition: all var(--transition-medium);
+  border: none;
+}
+
+.exam-form .btn-primary {
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+  color: var(--color-text);
+  box-shadow: 0 4px 12px rgba(255, 129, 57, 0.2);
+}
+
+.exam-form .btn-primary:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(255, 129, 57, 0.3);
+}
+
+.exam-form .btn-secondary {
+  background: var(--color-bg);
+  color: var(--color-text-muted);
+  border: 1px solid var(--color-border);
+}
+
+.exam-form .btn-secondary:hover:not(:disabled) {
+  background: var(--color-bg-hover);
+  color: var(--color-text);
+}
+
+.exam-form .btn-primary:disabled,
+.exam-form .btn-secondary:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
