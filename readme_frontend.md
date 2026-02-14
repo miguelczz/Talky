@@ -6,9 +6,9 @@ La aplicación funciona como un asistente conversacional que permite practicar i
 
 El sistema se conecta con n8n y la API de OpenAI, y utiliza AWS Cognito y Amplify para la autenticación de usuarios.
 
-<img src="frontend/src/assets/images/readme/inicio.png" alt="Inicio"/>
-<img src="frontend/src/assets/images/readme/chat.png" alt="Chat"/>
-<img src="frontend/src/assets/images/readme/Verbos.png" alt="Verbos"/>
+<img src="./src/assets/images/readme/inicio.png" alt="Inicio"/>
+<img src="./src/assets/images/readme/chat.png" alt="Chat"/>
+<img src="./src/assets/images/readme/Verbos.png" alt="Verbos"/>
 
 ---
 
