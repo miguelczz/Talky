@@ -6,9 +6,19 @@ La aplicación funciona como un asistente conversacional que permite practicar i
 
 El sistema se conecta con n8n y la API de OpenAI, y utiliza AWS Cognito y Amplify para la autenticación de usuarios.
 
+<div align="center">
+
 <img src="frontend/src/assets/images/readme/inicio.png" alt="Inicio"/>
 <img src="frontend/src/assets/images/readme/chat.png" alt="Chat"/>
 <img src="frontend/src/assets/images/readme/Verbos.png" alt="Verbos"/>
+
+<h3>🏆 Certificado Mejor proyecto PPI T&T, categoría cuarto semestre, año 2025-2</h3>
+
+<img src="https://github.com/miguelczz/miguelczz/blob/main/certificado-talky.png?raw=true&v=2"
+     alt="Certificado Talky"
+     width="600"/>
+
+</div>
 
 ---
 
