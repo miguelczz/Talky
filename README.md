@@ -1,70 +1,58 @@
 # Talky
 
-**Talky** es una aplicación web **en desarrollo** orientada a estudiantes de inglés. Este repositorio contiene la parte del frontend, desarrollada en React con Vite y TailwindCSS.
+**Talky** is a web application aimed at English-language students. This repository contains the frontend portion, built with React, Vite, and TailwindCSS.
 
-La aplicación funciona como un asistente conversacional que permite practicar inglés mediante chat interactivo. Incluye herramientas adicionales como un glosario de palabras y una tabla de verbos.
+The application works as a conversational assistant that lets users practice English through interactive chat. It includes additional tools such as a word glossary and a verb table.
 
-El sistema se conecta con n8n y la API de OpenAI, y utiliza AWS Cognito y Amplify para la autenticación de usuarios.
+The system connects to n8n — which in turn orchestrates calls to the OpenAI API — and uses AWS Cognito and Amplify for user authentication.
 
 <div align="center">
 
-<img src="frontend/src/assets/images/readme/inicio.png" alt="Inicio"/>
+<img src="frontend/src/assets/images/readme/inicio.png" alt="Home"/>
 <img src="frontend/src/assets/images/readme/chat.png" alt="Chat"/>
-<img src="frontend/src/assets/images/readme/Verbos.png" alt="Verbos"/>
+<img src="frontend/src/assets/images/readme/Verbos.png" alt="Verbs"/>
 
-<h3>🏆 Certificado Mejor proyecto PPI T&T, categoría cuarto semestre, año 2025-2</h3>
+<h3>🏆 Certificate — Best PPI T&T Project, Fourth Semester Category, 2025-2</h3>
 
 <img src="https://github.com/miguelczz/miguelczz/blob/main/certificado-talky.png?raw=true&v=2"
-     alt="Certificado Talky"
+     alt="Talky Certificate"
      width="600"/>
 
 </div>
 
 ---
 
-## Características del Frontend
+## Frontend Features
 
-- Chat interactivo conectado a la API (vía n8n).
-- Autenticación de usuarios con AWS Cognito y Amplify.
-- Componentes disponibles:
-  - Chat funcional.
-  - Tabla de verbos regulares e irregulares.
-  - Glosario personalizado por usuario.
-  - Registro, inicio de sesión y recuperación de contraseña.
-- Interfaz moderna desarrollada con React + Vite + TailwindCSS.
+- Interactive chat connected to the API (via n8n).
+- User authentication with AWS Cognito and Amplify.
+- Available components:
+  - Functional chat.
+  - Regular and irregular verb table.
+  - Per-user custom glossary.
+  - Registration, login, and password recovery.
+- Modern UI built with React + Vite + TailwindCSS.
 
 ---
 
-## Tecnologías
+## Technologies
 
 - Framework: React + Vite
-- Estilos: TailwindCSS + CSS personalizado
-- Autenticación: AWS Amplify + Cognito
-- Integraciones: n8n + OpenAI
+- Styling: TailwindCSS + custom CSS
+- Authentication: AWS Amplify + Cognito
+- Integrations: n8n (orchestrates calls to the OpenAI API)
 
 ---
 
-## Estado del Proyecto (Frontend)
+## Security
 
-- Chatbot: Implementado
-- Autenticación: Implementada
-- Tabla de verbos: Activa
-- Glosario: Activo
-- Registro, login, recuperación: Activos
-- Lecciones: Pendientes
-- Exámenes: Pendientes
+This repository does not include private keys. Sensitive configuration must be kept in `amplifyconfiguration.json` and should never be committed to version control. Make sure to use an appropriate `.gitignore` file.
 
 ---
 
-## Seguridad
+## Backend Repository
 
-Este repositorio no incluye claves privadas. Las configuraciones sensibles deben mantenerse en `amplifyconfiguration.json` y nunca deben subirse a control de versiones. Se debe asegurar de usar un archivo `.gitignore` adecuado.
-
----
-
-## Repositorio Backend
-
-El backend de la aplicación se encuentra en un repositorio aparte, desarrollado con:
+The application's backend lives in a separate repository, built with:
 - Java
 - Spring Boot
 - PostgreSQL
