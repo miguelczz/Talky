@@ -1,5 +1,7 @@
 # Talky
 
+**English** · [Español](README.es.md)
+
 **Talky** is a web application aimed at English-language students. This repository contains the frontend portion, built with React, Vite, and TailwindCSS.
 
 The application works as a conversational assistant that lets users practice English through interactive chat. It includes additional tools such as a word glossary and a verb table.
